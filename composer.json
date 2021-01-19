@@ -1,6 +1,6 @@
 {
-  "name": "getherbert/herbert",
-  "description": "Herbert",
+  "name": "imdime/sm-herbert-boilerpate",
+  "description": "Herbert based boilerplate",
   "license": "MIT",
   "require": {
     "twig/twig": "~1.16",
