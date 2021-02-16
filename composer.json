@@ -4,7 +4,7 @@
   "license": "MIT",
   "require": {
     "twig/twig": "^3.3",
-    "illuminate/database": "^5.0",
+    "illuminate/database": "^6.0",
     "vierbergenlars/php-semver": "^3.0",
     "symfony/var-dumper": "^5.2",
     "illuminate/http": "~5.0"
