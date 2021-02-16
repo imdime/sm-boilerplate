@@ -3,10 +3,10 @@
   "description": "Herbert based boilerplate",
   "license": "MIT",
   "require": {
-    "twig/twig": "~1.16",
-    "illuminate/database": "~5.0",
-    "vierbergenlars/php-semver": "~3.0",
-    "symfony/var-dumper": "~3.0",
+    "twig/twig": "^3.3",
+    "illuminate/database": "^5.0",
+    "vierbergenlars/php-semver": "^3.0",
+    "symfony/var-dumper": "^5.2",
     "illuminate/http": "~5.0"
   },
   "autoload": {
@@ -17,5 +17,5 @@
   "config": {
     "preferred-install": "dist"
   },
-  "minimum-stability": "dev"
+  "minimum-stability": "stable"
 }
