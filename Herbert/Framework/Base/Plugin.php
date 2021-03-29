@@ -60,8 +60,8 @@ class Plugin implements PluginContract {
     {
         if (is_null($this->config))
         {
-            $this->config = file_exists("{$this->getBasePath()}/herbert.config.php")
-                ? require "{$this->getBasePath()}/herbert.config.php"
+            $this->config = file_exists("{$this->getBasePath()}/sm.config.php")
+                ? require "{$this->getBasePath()}/sm.config.php"
                 : [];
         }
 

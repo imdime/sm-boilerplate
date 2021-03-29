@@ -40,7 +40,7 @@ foreach ($iterator as $directory)
 
     $root = $directory->getPath() . '/' . $directory->getFilename();
 
-    if ( ! file_exists($root . '/herbert.config.php'))
+    if ( ! file_exists($root . '/sm.config.php'))
     {
         continue;
     }

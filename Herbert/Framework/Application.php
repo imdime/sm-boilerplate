@@ -180,7 +180,7 @@ class Application extends \Illuminate\Container\Container implements \Illuminate
     {
         if ( ! isset($this->configurations[$root]))
         {
-            $this->configurations[$root] = @require_once "$root/herbert.config.php" ?: [];
+            $this->configurations[$root] = @require_once "$root/sm.config.php" ?: [];
         }
 
         return $this->configurations[$root];
